@@ -1,6 +1,6 @@
 # Module 12 Report
 
-## Overview
+## Analysis Overview
 
 The purpose of this analysis is to train and evaluate a model based on loan risk that can identify the creditworthiness of borrowers. The data included	loan_size, interest_rate, borrower_income, debt_to_income, num_of_accounts, derogatory_marks, total_debt, loan_status. These features were the basis of our predictions as to whether or not a loan is healthy or not. During this analysis I read in the data and divided the data based on whether the column was a label or feature. The only label is loan_status, so the rest were used as features. I then split the data using sklearn's train_test_split, using the split data I created and trained a Logistic Regression Model. Finally, I used this model to make predictions on the data to see how well the model performs with test data.
 
